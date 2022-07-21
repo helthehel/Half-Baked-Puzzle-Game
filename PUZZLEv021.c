@@ -11,7 +11,7 @@ int main(){
     SetConsoleTextAttribute(hc,5);
     int Dans,SCORE=-1,HP=1,HPget=0,HPdisp=0,TrueMain=0;
     char Q0real[]="Yes",Q0ans[4];
-    printf("PUZZLE GAME V0.2\n\n");
+    printf("PUZZLE GAME V0.21\n\n");
     SetConsoleTextAttribute(hc,13);
     printf("------------TODO LIST------------\n\n\n");
     printf("- Add more Questions\n");
@@ -28,6 +28,7 @@ int main(){
     printf("- Added Lore\n");
     printf("- Improved starting menu\n");
     printf("- Replaced Lives with HP\n");
+    printf("- Replaced Google link with GitHub link so the user doesn't have to 'download an exe file every time.'");
     SetConsoleTextAttribute(hc,11);
     printf("------------RULES------------\n\n\n");
     printf("- No colluding.\n");
@@ -42,7 +43,7 @@ int main(){
 
         if(GetKeyState(0x59)==0){
        
-            system("start https://drive.google.com/drive/folders/1VHYgbJ-QRYtFNxTVGimeGWsRt1rJuXNx");
+            system("start https://github.com/Reznoflovaniak/PUZZLE");
             Trueness++;
         }
         if(GetAsyncKeyState(0x4E)==0){
